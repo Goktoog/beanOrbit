@@ -23,20 +23,20 @@ public class score : MonoBehaviour
     private void Start()
     {
         // Başlangıçta skorları güncelle
-        _score = 0;  // Başlangıç skoru 0
+        _score = 0;  // Başlangıç skoru 0 yaomak için
         _currentScoreText.text = _score.ToString();
 
         // PlayerPrefs'ten yüksek skoru al
-        int highScore = PlayerPrefs.GetInt("HighScore", 0);  // Eğer yoksa varsayılan 0 döner
+        int highScore = PlayerPrefs.GetInt("HighScore", 0);  // Eğer yoksa varsayılan 0 olarak görünecek.
         _highScoreText.text = highScore.ToString();
     }
 
     private void UpdateHighScore()
     {
-        // Eğer mevcut skor, saklanan yüksek skor ile karşılaştırıldığında daha büyükse
+        // Eğer mevcut skor, saklanan yüksek skor ile karşılaştırıldığında daha büyükse,
         if (_score > PlayerPrefs.GetInt("HighScore", 0))
         {
-            // Yeni yüksek skoru kaydet
+            // Yeni yüksek skoru kaydet.
             PlayerPrefs.SetInt("HighScore", _score);
             _highScoreText.text = _score.ToString();
         }
@@ -57,6 +57,5 @@ public class score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Burada ekstra bir şey yapmaya gerek yok
     }
 }
