@@ -35,8 +35,12 @@ Main Menu Ekranı:
 
 
 
+
+
 Game Over Ekranı:
 ![GameOver](https://github.com/user-attachments/assets/a7fa2507-fee2-4d35-bc83-0e7a83ed14e4)
+
+
 
 
 
