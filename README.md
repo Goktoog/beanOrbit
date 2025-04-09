@@ -30,28 +30,22 @@ Bu projede:
 ## Görseller:
 
 Main Menu Ekranı:
+
 ![mainMenu](https://github.com/user-attachments/assets/3c06f2fb-a7f7-4cfc-b9d9-0c195c4801d6)
 
 
 
 
-
-
 Game Over Ekranı:
+
 ![GameOver](https://github.com/user-attachments/assets/a7fa2507-fee2-4d35-bc83-0e7a83ed14e4)
 
 
 
 
 
-
 Oynanış:
+
 ![Ingame](https://github.com/user-attachments/assets/b9c4b0f8-8c87-4344-bd83-ba4e5b341392)
-
-
-
-
-
-
 
 
