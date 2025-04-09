@@ -24,11 +24,11 @@ public class characterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Sadece oyun Playing durumundaysa karakter hareket etsin
+        // oyun playin durumunda ise karakter hareket etsin yoksa transform değerleri başlangıçta duracak.
         if (GameManager.instance.currentGameState != GameManager.GameState.Playing)
             return;
 
-        if (Input.GetMouseButtonUp(0)) // 0: Sol tık, 1: Sağ tık, 2: Orta tık için geçerlidir.
+        if (Input.GetMouseButtonUp(0)) // 0: Sol tık, 1: Sağ tık, 2: Orta tık için kullanılıyomuş.
         {
             _rb.velocity = Vector2.up * _velocity;
         }
@@ -44,7 +44,7 @@ public class characterController : MonoBehaviour
         if (explosionEffect != null)
         {
             explosionEffect.transform.position = transform.position;
-            explosionEffect.Play(); // Patlama efektini çalıştır
+            explosionEffect.Play(); // Patlama efektini oyuncu transformunun üstüne çağır.
         }
 
         GameManager.instance.GameOver();
