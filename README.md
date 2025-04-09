@@ -1,4 +1,4 @@
-# beanOrbit 
+# beanOrbit 🌕
 Bu proje, Unity öğrenme sürecimde yaptığım ilk 2D oyun projelerinden birisi. Oyuncu, uzayda ilerlerken asteroitlerden kaçmaya çalışır. Oyuncu, uzayda ilerlerken asteroitlerden kaçmaya çalışır ve her başarılı kaçışta puanı artar. Zamanında dünyaca popüler olan ayrıca o zamana göre çekici bir mekaniği bulunan Flappy bird oyununun geleneksel kalıplarını kullanarak biraz değiştirilmiş versiyonudur. Kısaca bir runner oyunudur.
 
 ##  Özellikler:
